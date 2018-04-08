@@ -1,0 +1,200 @@
+ 1830  rubu -v
+ 1831  ruby -v
+ 1832  gem install bundler
+ 1833  gem install rails
+ 1834  python
+ 1835  sqlplus
+ 1836  cd Downloads/
+ 1837  cd Disk1/
+ 1838  rpm
+ 1839  sudo apt install rpm
+ 1840  sudo rpm -ivh oracle-xe-11.2.0-1.0.x86_64.rpm 
+ 1841  sudo apt-get install alien
+ 1842  sudo --to-ded oracle-xe-11.2.0-1.0.x86_64.rpm
+ 1843  alien -i oracle-xe-11.2.0-1.0.x86_64.rpm 
+ 1844  sudo alien -i oracle-xe-11.2.0-1.0.x86_64.rpm 
+ 1845  ls -la
+ 1846  alien  oracle-xe-11.2.0-1.0.x86_64.rpm 
+ 1847  sudo alien  oracle-xe-11.2.0-1.0.x86_64.rpm 
+ 1848  sudo deb -i oracle-xe_11.2.0-2_amd64.deb 
+ 1849  sudo dpkg -i oracle-xe_11.2.0-2_amd64.deb 
+ 1850  sq
+ 1851  dpkg -s oracle
+ 1852  sqlplus
+ 1853  ls
+ 1854  ./manage.py runserver
+ 1855  pip install Pillow
+ 1856  ./manage.py runserver
+ 1857  ps aux
+ 1858  ps aux | grep google
+ 1859  ps aux | grep chrome
+ 1860  top
+ 1861  kill -9 5177
+ 1862  kill -9 4981
+ 1863  ls
+ 1864  cd projects/
+ 1865  cd django_projects/
+ 1866  git clone https://sirbeacon@bitbucket.org/sirbeacon/remember_me.git
+ 1867  ls
+ 1868  cd remember_me/
+ 1869  ls
+ 1870  cd ..
+ 1871  virtualenv
+ 1872  mkdir venvs
+ 1873  ls
+ 1874  virtualenv -p python3 '/home/nikita/projects/django_projects/venvs' 
+ 1875  source venvs/bin/activate
+ 1876  python
+ 1877  pip install django==1.11.11
+ 1878  g++ -v
+ 1879  ls
+ 1880  mkdir testing
+ 1881  cd testing/
+ 1882  mkdir c++
+ 1883  cd c++/
+ 1884  vim hill_colors.cpp
+ 1885  g++ hill_colors.cpp -o hill_colors
+ 1886  ./hill_colors 
+ 1887  vim hill_colors.cpp
+ 1888  g++ hill_colors.cpp -o hill_colors
+ 1889  ./hill_colors 
+ 1890  g++ hill_colors.cpp -static -DONLINE_JUDGE -lm -s -x c++ -Wl,--stack=268435456 -O2 -std=c++11 -D__USE_MINGW_ANSI_STDIO=0 -o res
+ 1891  g++ hill_colors.cpp -static -DONLINE_JUDGE -lm -s -x c++ -Wl --stack=268435456 -O2 -std=c++11 -D__USE_MINGW_ANSI_STDIO=0 -o res
+ 1892  g++ hill_colors.cpp -static -DONLINE_JUDGE -lm -s -x c++  -O2 -std=c++11 -D__USE_MINGW_ANSI_STDIO=0 -o res
+ 1893  ./res 
+ 1894  ifconfig
+ 1895  netstat -an|more
+ 1896  hostname -I
+ 1897  sudo apt-get install exfat-fuse exfat-utils
+ 1898  gcc --version
+ 1899  ls
+ 1900  ll
+ 1901  mkdir labs
+ 1902  cd l
+ 1903  cd labs/
+ 1904  ls -la ~/.ssh/
+ 1905  ssh-keygen
+ 1906  ls -la ~/.ssh/
+ 1907  cat ~/.ssh/id_rsa.pub 
+ 1908  git clone git@github.com:mimuss/Lab2.git
+ 1909  dc labs/
+ 1910  ls
+ 1911  cd labs/
+ 1912  ls
+ 1913  git clone git@github.com:mimuss/Lab2.git
+ 1914  ls
+ 1915  cd Lab2/
+ 1916  cd //
+ 1917  cd
+ 1918  cd labs/
+ 1919  mkdir os
+ 1920  ;s
+ 1921  ls
+ 1922  mv Lab2/ os/
+ 1923  ;s
+ 1924  ls
+ 1925  tree
+ 1926  cd Lab2/src/revert_string/
+ 1927  ls
+ 1928  gcc -o libRevert.so -shared -fPIC 
+ 1929  gcc -o revert.o -c revert_string.c 
+ 1930  ls
+ 1931  gcc -o libRevert.so -shared -fPIC revert.o 
+ 1932  gcc -o libRevert.so -shared -fPIC revert_string.c
+ 1933  ls
+ 1934  rm revert.o 
+ 1935  ll
+ 1936  sudo apt-get update && sudo apt-get upgrade
+ 1937  clear
+ 1938  gcc main.c -L. -lRevert -o res_with_shared
+ 1939  ls
+ 1940  ll
+ 1941  ./res_with_shared 
+ 1942  export DB_LIBRARY_PATH=.
+ 1943  ./res_with_shared 
+ 1944  export LD_LIBRARY_PATH=.
+ 1945  ./res_with_shared 
+ 1946  ./res_with_shared helloworld
+ 1947  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+ 1948  pyenv update
+ 1949  cat ~/.bashrc
+ 1950  ls ~/.pyenv/
+ 1951  ls ~/.pyenv/bin/
+ 1952  vim ~/.bashrc
+ 1953  source ~/.bashrc
+ 1954  vim ~/.bashrc
+ 1955  vim ~/.bash_profile
+ 1956  source ~/.bash_profile 
+ 1957  pyenv
+ 1958  pyenv install 2.7.9
+ 1959  git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+ 1960  pyenv global 2.7.9 
+ 1961  which python
+ 1962  cd
+ 1963  mkdir dev
+ 1964  cd dev/
+ 1965  git clone git@github.com:latera/hpd.git
+ 1966  cd hpd/
+ 1967  ls
+ 1968  easy_install setuptools==30.1.0
+ 1969  python
+ 1970  python bootstrap.py 
+ 1971  ./bin/buildout 
+ 1972  easy_install setuptools==30.1.0
+ 1973  pip install setuptools==30.1.0
+ 1974  ./bin/buildout 
+ 1975  ls
+ 1976  docker build hpd .
+ 1977  docker build hpd -f .
+ 1978  docker build -f .
+ 1979  docker build -t .
+ 1980  cd labs/os/Lab2/
+ 1981  ls
+ 1982  tree
+ 1983  cat update.sh 
+ 1984  ./update.sh 
+ 1985  docker 
+ 1986  docker verson
+ 1987  docker version
+ 1988  docker images
+ 1989  sudo docker images
+ 1990  ls
+ 1991  tree
+ 1992  cat tests/tests.c
+ 1993  cat src/tests/tests.c
+ 1994  tree
+ 1995  history
+ 1996  tree
+ 1997  cd labs/os/Lab2/
+ 1998  ;s
+ 1999  ls
+ 2000  tree
+ 2001  cd src/tests/
+ 2002  gcc tests.c -L~/labs/os/Lab2/src/revert_string -lRevert -o tests
+ 2003  gcc tests.c -L~/labs/os/Lab2/src/revert_string/ -lRevert -o tests
+ 2004  pwd
+ 2005  gcc tests.c -L/home/nikita/labs/os/Lab2/src/revert_string/ -lRevert -o tests
+ 2006  mr tests.c ../revert_string/
+ 2007  mv tests.c ../revert_string/
+ 2008  cd ..
+ 2009  tree
+ 2010  cd revert_string/
+ 2011  gcc tests.c -L. -lRevert -o tests
+ 2012  gcc tests.c -L. -lRevert -o tests -lcunit
+ 2013  ll
+ 2014  ./tests 
+ 2015  export LD_LIBRARY_PATH=.
+ 2016  ./tests 
+ 2017  history 
+ 2018  top
+ 2019  kill -9 3860
+ 2020  tail history
+ 2021  history | tail
+ 2022  history | tail -n 15
+ 2023  history | tail -n 50
+ 2024  history | tail -n 100
+ 2025  history | tail -n 200
+ 2026  cd ..
+ 2027  ls
+ 2028  tree
+ 2029  history | tail -n 200 > history.txt
